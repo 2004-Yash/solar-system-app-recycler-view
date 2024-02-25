@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SolarSystem</string>
+    <string name="planet_image">Planet Image</string>
+    <string name="planet">planet</string>
+    <string name="moon">moon</string>
+</resources>

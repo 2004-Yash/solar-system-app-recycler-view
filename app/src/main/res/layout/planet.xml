@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardElevation="13dp"
+    android:layout_marginBottom="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="379dp"
+        android:layout_height="170dp"
+        android:background="@drawable/space">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:id="@+id/planetImg"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/planet_image" />
+
+        <TextView
+            android:layout_width="167dp"
+            android:layout_height="70dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/planet"
+            android:text="@string/planet"
+            android:textSize="35sp"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/moon"
+            android:id="@+id/moons"
+            android:textSize="20sp"
+            android:fontFamily="serif"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
